@@ -1,4 +1,3 @@
-import React from "react";
 import day from '../assets/day.svg'
 import night from '../assets/night.svg'
 import evening from '../assets/evening.svg'
