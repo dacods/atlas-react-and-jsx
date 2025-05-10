@@ -15,6 +15,15 @@ function App() {
         which allows it to efficiently update and render only the components that have changed, 
         improving performance.
       </Section>
+      <Section title="Benefits of react">
+        <ul>
+          <li>Virtual DOM</li>
+          <li>Reusable Components</li>
+          <li>Hooks for state & side effects</li>
+          <li>Strong TypeScript support</li>
+          <li>React Native & Expo</li>
+        </ul>
+      </Section>
     </div>
   )
 }
