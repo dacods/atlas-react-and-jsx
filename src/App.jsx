@@ -1,5 +1,6 @@
 import Header from "./components/Header";
 import Section from "./components/Section";
+import HelpfulResource from "./components/HelpfulResource";
 
 function App() {
   return (
@@ -23,6 +24,11 @@ function App() {
           <li>Strong TypeScript support</li>
           <li>React Native & Expo</li>
         </ul>
+      </Section>
+      <Section title="Helpful resources">
+        <HelpfulResource label={'w3schools'} link={'https://www.w3schools.com/react'}></HelpfulResource>
+        <HelpfulResource label={'React Documentation'} link={'https://react.dev/'}></HelpfulResource>
+        <HelpfulResource label={'Getting started with React'} link={'https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_getting_started'}></HelpfulResource>
       </Section>
     </div>
   )
