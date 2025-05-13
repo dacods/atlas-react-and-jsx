@@ -2,6 +2,7 @@ import Header from "./components/Header";
 import Section from "./components/Section";
 import HelpfulResource from "./components/HelpfulResource";
 import AboutMe from "./components/AboutMe";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
         <HelpfulResource label={'Getting started with React'} link={'https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_getting_started'}></HelpfulResource>
       </Section>
       <AboutMe></AboutMe>
+      <Footer></Footer>
     </div>
   )
 }
